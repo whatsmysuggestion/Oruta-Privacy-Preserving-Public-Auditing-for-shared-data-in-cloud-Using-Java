@@ -1,0 +1,12 @@
+p><input type="text" name="T1" size="20" value="<%= s!=null?s:""%>"></p>
+  <p>
+<script>
+	id=frm.D1.selectedIndex
+	document.write("Print <input type=hidden name=ind value=" + id + ">");
+</script>
+  <input type="submit" value="Submit" name="B1"></p>
+</form>
+<%= "=>" + "<script>document.write(\"<input type=text name=ind value=\" + id + \">)</script>"%>
+</body>
+
+</html>

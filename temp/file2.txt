@@ -1,0 +1,24 @@
+alue=id
+	}
+	function getId()
+	{
+		return id
+	}
+</script>
+
+</head>
+
+<body>
+<hr>
+<%
+	String s = request.getParameter("D1");
+	String i = request.getParameter("ind");
+%>
+<form method="POST" action="1.jsp" name="frm">
+  <br>
+  <p><select size="1" name="D1" onChange="callFun()">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  </select></p>
+  <
